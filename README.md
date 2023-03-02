@@ -15,6 +15,13 @@ http://store.steampowered.com/app/[gameid]
 
 ------------
 
+**As per Pandoriaantje's findings**:<br>
+There are 2 versions: `CODEX api-only build` and `SteamClient build`.<br>
+For the `SteamClient build`, *as archived here*, one needs to (hex) edit the original `steam_api(64).dll` manually, and replace `SHELL32` with `CODEX(64)`<br>
+Afterwards, rename original `steam_api(64).dll` to `steam_api(64).cdx` for CODEX redirection purposes.
+
+------------
+
 I AM NOT CODEX, I AM NOT RELATED IN ANY WAY TO CODEX. JUST SHARING WHAT THEY LEFT AFTER THEIR GOODBYES.
 
 ~ FAREWELL CODEX ~
